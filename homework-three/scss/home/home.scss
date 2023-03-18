@@ -1,0 +1,214 @@
+.home {
+    height: 1310px;
+    .hero {
+        height: 500px;
+        max-width: 1280px;
+        margin: 0 auto;
+        background-image: url(../images/hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hero-text {
+            width: 714px;
+            height: 248px;
+            // background-color: springgreen;
+            margin: 0 auto;
+            padding-top: -40px;
+            
+
+            h1 {
+                color: #fff;
+                font-size: 60px;
+                font-family: "proxima-nova-extra-condensed";
+                text-align: center;
+             }
+            
+             h3 {
+                color: #fff;
+                font-size: 20px;
+                font-family: "gill-sans-nova";
+                font-style: italic;
+                text-align: center;
+             }
+            }
+        }
+    }
+    .promo-wrapper {
+        position: relative;
+        width: 818px;
+        // background-color: yellow;
+            margin: 0 auto;
+
+    
+        .overlay-israel {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 236px;
+            height: 304px;
+            z-index: 1;
+            // opacity: 0.25;
+            // background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding-top: 40px;
+
+            .trip-title {
+                font-family: proxima-nova-extra-condensed;
+                font-size: 60px;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: .1em;
+                     span {
+                        // font-family: proxima-nova-extra-condensced;
+                        font-size: 30px;
+                        display: block;
+                        .learn-more {
+
+                        }
+                    }
+                }
+            }
+
+                .overlay-usa {
+                    position: absolute;
+                    top: 0;
+                    left: 291px;
+                    width: 236px;
+                    height: 304px;
+                    z-index: 1;
+                    // opacity: 0.25;
+                    // background-color: #000000;
+                    color: #fff;
+                    text-align: center;
+                    padding-top: 40px;
+                
+                    .trip-title {
+                        font-family: proxima-nova-extra-condensed;
+                        font-size: 60px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: .1em;
+                            span {
+                        // font-family: proxima-nova-extra-condensced;
+                        font-size: 30px;
+                        display: block;
+                        .learn-more {
+
+                    }
+                }
+            }
+        }
+                .overlay-aus {
+                    position: absolute;
+                    top: 0;
+                    left: 582px;
+                    width: 236px;
+                    height: 304px;
+                    z-index: 1;
+                    // opacity: 0.25;
+                    // background-color: #000000;
+                    color: #fff;
+                    text-align: center;
+                    padding-top: 40px;
+
+                    .trip-title {
+                        font-family: proxima-nova-extra-condensed;
+                        font-size: 60px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: .1em;
+                            span {
+                        // font-family: proxima-nova-extra-condensced;
+                        font-size: 30px;
+                        display: block;
+                        .learn-more {
+
+                     } 
+                }
+            }
+        }
+            
+       .promo-trips {
+            margin-top: -50px;
+            min-height: 304px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    }
+
+            
+        .booking {
+            min-height: 550px;
+            // background-color: darkcyan;
+            padding: 50px;
+            margin: 0 auto;
+
+            .booking-wrapper {
+                max-width: 830px;
+                margin: 0 auto;
+                padding-left: 25px;
+
+                    h1 {
+                        font-family: gill-sans-nova;
+                    }
+
+            
+                .long-input {
+                    // background-color: aquamarine;
+                    display: inline;
+                    margin: 0 auto;    
+                    
+                    input {
+                        width: 48%;
+                        height: 58px;
+                        border: 1px, solid;
+                    }
+                }
+                .date-entry {
+                    width: 85%;
+                    display: inline;
+                    align-items: center;
+                    justify-content: center;
+
+                    label {
+                        display: inline;
+                    }
+                }
+                .guests {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .message {
+                    width: 800px;
+                    height: 192px;
+                    input {
+                        height: 192px;
+                        width: 100%;
+                    }
+                }
+                .booking-submit {
+                    width: 100%;
+                    @include  site-button($radius: 20px)
+                                    
+                }
+            }
+        } 
+
+
+ 
+        
+
+        
+
+        
+            
+      
+       
+

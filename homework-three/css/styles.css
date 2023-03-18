@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  position: fixed;
+  height: 92px;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #fff;
+}
+nav .logo {
+  height: 42px;
+  width: 136px;
+}
+nav .logo span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  border: solid 2px #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .logo p {
+  display: inline;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  margin-left: -5px;
+}
+nav .links {
+  width: 320px;
+  height: 42px;
+  padding: 5px;
+}
+nav .links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "gill-sans-nova";
+  font-weight: 500;
+}
+
+.home {
+  height: 1310px;
+}
+.home .hero {
+  height: 500px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: url(../images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .hero .hero-text {
+  width: 714px;
+  height: 248px;
+  margin: 0 auto;
+  padding-top: -40px;
+}
+.home .hero .hero-text h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: "proxima-nova-extra-condensed";
+  text-align: center;
+}
+.home .hero .hero-text h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "gill-sans-nova";
+  font-style: italic;
+  text-align: center;
+}
+
+.promo-wrapper {
+  position: relative;
+  width: 818px;
+  margin: 0 auto;
+}
+.promo-wrapper .overlay-israel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 236px;
+  height: 304px;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+.promo-wrapper .overlay-israel .trip-title {
+  font-family: proxima-nova-extra-condensed;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.promo-wrapper .overlay-israel .trip-title span {
+  font-size: 30px;
+  display: block;
+}
+.promo-wrapper .overlay-usa {
+  position: absolute;
+  top: 0;
+  left: 291px;
+  width: 236px;
+  height: 304px;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+.promo-wrapper .overlay-usa .trip-title {
+  font-family: proxima-nova-extra-condensed;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.promo-wrapper .overlay-usa .trip-title span {
+  font-size: 30px;
+  display: block;
+}
+.promo-wrapper .overlay-aus {
+  position: absolute;
+  top: 0;
+  left: 582px;
+  width: 236px;
+  height: 304px;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+.promo-wrapper .overlay-aus .trip-title {
+  font-family: proxima-nova-extra-condensed;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.promo-wrapper .overlay-aus .trip-title span {
+  font-size: 30px;
+  display: block;
+}
+.promo-wrapper .promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking {
+  min-height: 550px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.booking .booking-wrapper {
+  max-width: 830px;
+  margin: 0 auto;
+  padding-left: 25px;
+}
+.booking .booking-wrapper h1 {
+  font-family: gill-sans-nova;
+}
+.booking .booking-wrapper .long-input {
+  display: inline;
+  margin: 0 auto;
+}
+.booking .booking-wrapper .long-input input {
+  width: 48%;
+  height: 58px;
+  border: 1px, solid;
+}
+.booking .booking-wrapper .date-entry {
+  width: 85%;
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.booking .booking-wrapper .date-entry label {
+  display: inline;
+}
+.booking .booking-wrapper .guests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.booking .booking-wrapper .message {
+  width: 800px;
+  height: 192px;
+}
+.booking .booking-wrapper .message input {
+  height: 192px;
+  width: 100%;
+}
+.booking .booking-wrapper .booking-submit {
+  width: 100%;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+}
+
+.footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .logo {
+  height: 42px;
+  width: 145px;
+  padding: 15px;
+  margin-left: 150px;
+}
+.footer .logo span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  border: solid 2px #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer .logo p {
+  display: inline;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  margin-left: -5px;
+}
+.footer .notice p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer .social {
+  margin-right: 150px;
+}
+.footer .social img {
+  padding: 12px;
+}
